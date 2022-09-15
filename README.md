@@ -1,2 +1,2 @@
 # petclinic-online-deployment
-Books Online Helm Charts for Kubernetes Deployments
+Petclinic Online Helm Charts for Kubernetes Deployments
