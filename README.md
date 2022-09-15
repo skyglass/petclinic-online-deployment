@@ -1,2 +1,2 @@
 # petclinic-online-deployment
-Books Online Spring Boot Microservices for Docker and Kubernetes
+Books Online Helm Charts for Kubernetes Deployments
