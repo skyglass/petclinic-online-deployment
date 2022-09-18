@@ -1,14 +1,14 @@
 apiVersion: autoscaling/v2beta1
 kind: HorizontalPodAutoscaler
 metadata:
-  name: petclinic-mem-hpa
+  name: petclinic-online-mem-hpa
 spec:
   maxReplicas: 5
   minReplicas: 1
   scaleTargetRef:
     apiVersion: apps/v1
     kind: Deployment
-    name: petclinic-deployment
+    name: petclinic-online-deployment
   metrics:
   - type: Resource
     resource:
