@@ -3,12 +3,12 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: petclinic-online-service
+  name: petclinic-service
   labels:
-    app: petclinic-online-app
+    app: petclinic-app
 spec:
   selector:
-    app: petclinic-online-app
+    app: petclinic-app
   type: LoadBalancer
   ports:
   - nodePort: 32751
