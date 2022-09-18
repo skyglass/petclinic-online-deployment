@@ -5,7 +5,7 @@
 replicaCount: 1
 
 image:
-  repository: skyglass/petclinic
+  repository: skyglass/petclinic-online
   # Overrides the image tag whose default is the chart appVersion.  
   tag: "v1.21"
   pullPolicy: IfNotPresent
